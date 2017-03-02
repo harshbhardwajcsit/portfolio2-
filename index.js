@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 // // public middleware for front-end
 app.use(express.static("public"));
 
-var port=process.env.PORT || 3000;
+var port=process.env.PORT || 3001;
 app.listen(port,function (req,res) {
     console.log("server started");
 
